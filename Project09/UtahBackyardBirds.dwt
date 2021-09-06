@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<!-- #BeginEditable "doctitle" -->
+
+<title>Utah Backyard Birds - Home</title>
+<!-- #EndEditable -->
+
+
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+
+
+</head>
+
+<body>
+<script type="text/javascript" src= “myscripts.js”></script>
+
+<div id="container">
+<div id="masthead">
+	<!-- Image Rollover-->
+	<a href="" onmouseover="document.getElementById('logo').src='Images/logo-transparent-2.jpg';"  onmouseout="document.getElementById('logo').src='Images/logo-transparent-filled.jpg';"> 
+	<img alt="logo" id ="logo" height="150" src="Images/logo-transparent-2.jpg" width="150" class="logoleft">
+	</a>
+	
+	<img alt="banner" height="150" src="Images/Banner.jpg" width="600">
+</div>
+
+&nbsp;
+
+<section id="maincontent">
+		
+	<nav>
+	<div id="leftcolumn">
+		<a href="Home.html">&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="AboutUs.html">&nbsp;About Us&nbsp;</a>
+		<br>
+		<a href="Tributes.html">&nbsp;Tributes&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="Survey.html">&nbsp;&nbsp;Survey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="Links.html">&nbsp;&nbsp;Favorites&nbsp;</a>
+	</div>
+	</nav>
+		
+	<!-- #BeginEditable "PageContent" -->
+		
+	<article>
+	<div id="rightcolumn">
+		<h1>Welcome to Backyard Birds of Utah!</h1>
+		<p>If you love birdwatching like we do, you should enjoy looking around this site.  
+		Take a look at our Bird Profiles and take the opportunity to complete our survey.</p>
+	</div>
+	</article>
+
+<!-- #EndEditable -->
+
+</section>
+
+&nbsp;
+
+<footer>
+	<a href="#">foobar@example.com</a>
+	<p>This web site has been created solely for educational purposes</p>
+</footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Utah Backyard Birds - Home</title>
+</head>
+
+<body onload="preloadImages()">
+
+<script type="text/javascript" src= “myscripts.js”></script>
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+
+<div id="container">
+<div id="masthead">
+	<!-- Image Rollover-->
+	<a href="" onmouseover="document.getElementById('logo').src='Images/logo-transparent-2.jpg';"  onmouseout="document.getElementById('logo').src='Images/logo-transparent-filled.jpg';"> 
+	<img alt="logo" id ="logo" height="150" src="Images/logo-transparent-filled.jpg" width="150" class="logoleft">
+	</a>
+	
+	<img alt="banner" height="150" src="Images/Banner.jpg" width="600">
+</div>
+
+&nbsp;
+
+<section id="maincontent">
+	
+	<nav>
+	<div id="leftcolumn">
+		<a href="Home.html">&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="AboutUs.html">&nbsp;About Us&nbsp;</a>
+		<br>
+		<a href="Tributes.html">&nbsp;Tributes&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="Survey.html">&nbsp;&nbsp;Survey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="Links.html">&nbsp;&nbsp;Favorites&nbsp;</a>
+	</div>
+	</nav>
+		
+	<article>
+	<div id="rightcolumn">
+		<h1>Welcome to Backyard Birds of Utah!</h1>
+		<p>If you love birdwatching like we do, you should enjoy looking around this site.  
+		Take a look at our Bird Profiles and take the opportunity to complete our survey.</p>
+	</div>
+	
+	<!-- Add Image Map Here-->
+	<p class="instructions">
+        
+	<div id="thumbs">      
+	<img src="Images/Thumbnails/Image1Sm.jpg" alt="Hawk" onmouseover="swapImage(0);" />      
+	<img src="Images/Thumbnails/Image2Sm.jpg" alt="Heron" onmouseover="swapImage(1);" />    
+	<img src="Images/Thumbnails/Image3Sm.jpg" alt="Pigeon" onmouseover="swapImage(2);" />      
+	<img src="Images/Thumbnails/Image4Sm.jpg" alt="Quail"  onmouseover="swapImage(3);" />            
+	<br />            
+	
+	</div>    
+	
+	<!-- Hawk will always appear first when the page loads-->
+	<div id="image">        
+	<img id="theImage" src="Images/Fullsize/Image1Lg.jpg" alt="Hawk" />      
+	<h3 id="bottomText">Soaring Hawk</h3>
+	</div>
+	
+	</article>
+	
+</section>
+</div>
+&nbsp;
+
+<footer id="footer">
+	<a href="#">foobar@example.com</a>
+	<p>This web site has been created solely for educational purposes</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html>
+<!-- #BeginTemplate "UtahBackyardBirds.dwt" -->
+<head>
+
+<meta charset="UTF-8">
+
+<!-- #BeginEditable "doctitle" -->
+
+<title>Utah Backyard Birds: Customer Survey</title>
+<!-- #EndEditable -->
+
+
+<link href="print.css" rel="stylesheet" type="text/css" media="print">
+
+
+</head>
+
+<body>
+<script type="text/javascript" src= “myscripts.js”></script>
+
+<div id="container">
+<div id="masthead">
+	<!-- Image Rollover-->
+	<a href="" onmouseover="document.getElementById('logo').src='Images/logo-transparent-2.jpg';"  onmouseout="document.getElementById('logo').src='Images/logo-transparent-filled.jpg';"> 
+	<img alt="logo" id ="logo" height="150" src="Images/logo-transparent-2.jpg" width="150" class="logoleft">
+	</a>
+	
+	<img alt="banner" height="150" src="Images/Banner.jpg" width="600">
+</div>
+
+&nbsp;
+
+<section id="maincontent">
+		
+	<nav>
+	<div id="leftcolumn">
+		<a href="Home.html">&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="AboutUs.html">&nbsp;About Us&nbsp;</a>
+		<br>
+		<a href="Tributes.html">&nbsp;Tributes&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="Survey.html">&nbsp;&nbsp;Survey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<br>
+		<a href="Links.html">&nbsp;&nbsp;Favorites&nbsp;</a>
+	</div>
+	</nav>
+		
+	<!-- #BeginEditable "PageContent" -->
+		
+	<article>
+	<div id="rightcolumn">
+	<h1>Customer Survey</h1>
+	</div>
+	</article>
+	
+<form method="post" action="FormToEmail.php" name="CustomerSurvey" target="_blank">
+	
+		<fieldset id="CustomerInfo">
+				<legend>Customer Information</legend>
+				<ol>
+					<li>
+					<label id="FnameLBL" for="FnameTXT">First Name: </label>
+					<input name="FName" type="text" id="FnameTXT" size="30" tabindex="1" />
+					</li>
+					
+					<li>
+					<label id="LnameLBL" for="LnameTXT">Last Name: </label>
+					<input name="LName" type="text" id="LnameTXT" size="30" tabindex="2" />
+					</li>
+					
+					<li>
+					<label id="JobTitleLBL" for="JobTitleTXT">Job Title: </label>
+					<input name="JobTitle" type="text" id="JobTitleTXT" size="30" tabindex="2" />
+					</li>
+					
+					<li>
+					<label id="CityLBL" for="CityTXT">City: </label>
+					<input name="City" type="text" id="CityTXT" size="30" tabindex="2" />
+					</li>
+					
+					<li>
+					<label id="StateLBL" for="StateDDB">State: </label>
+					<select name="State" id="StateDDB" size="2" style="height: 29px" tabindex="4">
+					<option value="AL">AL</option>
+					<option value="AK">AK</option>
+					<option value="AZ">AZ</option>
+					<option value="AR">AR</option>
+					<option value="CA">CA</option>
+					<option value="CO">CO</option>
+					<option value="CT">CT</option>
+					<option value="DE">DE</option>
+					<option value="FL">FL</option>
+					<option value="GA">GA</option>
+					<option value="HI">HI</option>
+					<option value="ID">ID</option>
+					<option value="IL">IL</option>
+					<option value="IN">IN</option>
+					<option value="IA">IA</option>
+					<option value="KS">KS</option>
+					<option value="KY">KY</option>
+					<option value="LA">LA</option>
+					<option value="ME">ME</option>
+					<option value="MD">MD</option>
+					<option value="MA">MA</option>
+					<option value="MI">MI</option>
+					<option value="MN">MN</option>
+					<option value="MS">MS</option>
+					<option value="MO">MO</option>
+					<option value="MT">MT</option>
+					<option value="NE">NE</option>
+					<option value="NV">NV</option>
+					<option value="NH">NH</option>
+					<option value="NJ">NJ</option>
+					<option value="NM">NM</option>
+					<option value="NY">NY</option>
+					<option value="NC">NC</option>
+					<option value="ND">ND</option>
+					<option value="OH">OH</option>
+					<option value="OK">OK</option>
+					<option value="OR">OR</option>
+					<option value="PA">PA</option>
+					<option value="RI">RI</option>
+					<option value="SC">SC</option>
+					<option value="SD">SD</option>
+					<option value="TN">TN</option>
+					<option value="TX">TX</option>
+					<option value="UT">UT</option>
+					<option value="VT">VT</option>
+					<option value="VA">VA</option>
+					<option value="WA">WA</option>
+					<option value="WV">WV</option>
+					<option value="WI">WI</option>
+					<option value="WY">WY</option>
+					</select>
+					</li>
+				</ol>
+				
+			</fieldset>
+			
+<fieldset id="ContactInfo">
+	<legend>Contact Information</legend>
+
+	<ol>
+	<li>
+		<label id="EmailLBL" for="EmailTXT">Email: </label>
+		<input name="Email" type="email" id="EmailTXT" size="30" tabindex="1" />
+	</li>
+	
+	<li>
+		<label id="PhoneNumberLBL" for="EmailTXT">Phone Number: </label>
+		<input name="Email" type="tel" id="PhoneNumberTXT" size="10" tabindex="1" />
+	</li>
+	
+	<li>
+		<label id="ReceiveEmailsLBL">Would you like to receive periodic emails about new products?</label>
+		&nbsp;
+		Yes<input name="Yes" type="radio" />
+		&nbsp;
+		No<input name="No" type="radio" />
+	</li>
+	</ol>
+</fieldset>
+
+			
+<fieldset id="CustomerInput">
+			Item(s) Purchased: 
+			
+				<ol>
+						<li>
+						<label id="CalendarLBL">Calendar</label>
+						<input name="Calendar" type="checkbox" id="CalendarCB" tabindex="9"/>
+						</li>
+					
+						<li>
+						<label id="PostcardLBL">Postcard</label>
+						<input name="Postcard" type="checkbox" id="PostcardCB" tabindex="10"/>
+						</li>
+					
+						<li>
+						<label id="PhotoLBL">Photo</label>
+						<input name="Photo" type="checkbox" id="PhotoCB" tabindex="11"/>
+						</li>
+				</ol>
+			
+			How would you rank Utah Backyard Birds?
+				&nbsp;
+				<label id="RankingBL"><br>Ranking out of 5 stars:</label>
+				&nbsp;
+				<select id="RankingDDB" name="Ranking" size="1" tabindex="5" multiple="multiple">
+					<option value="1" >1 star</option>
+					<option value="2">2 stars</option>
+					<option value="3" selected="">3 stars</option>
+					<option value="4">4 stars</option>
+					<option value="5">5 stars</option>
+				</select>
+		
+		<label id="CommentLBL"><br><br>Add a Comment:</label>
+		<br>&nbsp;<textarea name="Comment" cols="30" rows="4" id="CommentTxA">
+			</textarea>
+		
+			<input name="Submit1" type="submit" value="submit" />
+			<input name="Reset1" type="reset" value="reset" />
+		</fieldset>
+</form>
+
+<!-- #EndEditable -->
+
+</section>
+
+&nbsp;
+
+<footer>
+	<a href="#">foobar@example.com</a>
+	<p>This web site has been created solely for educational purposes</p>
+</footer>
+
+</div>
+</body>
+<!-- #EndTemplate -->
+</html>
